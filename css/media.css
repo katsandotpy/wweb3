@@ -1,0 +1,41 @@
+@media (max-width:400px){
+    .main{
+        width:100vw;
+    }
+    .header{
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+    .logo{
+        width: 100vw;
+        height: 304;
+        object-fit: contain;
+    }
+    img{
+        width:100%;
+        height:auto;
+        object-fit: cover;
+    }
+    .container{
+        flex-direction: column;
+        width:100vw;
+    }
+    .header-text{
+        width: 100vw;
+    }
+    aside{
+        width: 100vw !important;
+        box-sizing: border-box;
+    }
+    li{
+        display: block;
+        text-align:center;
+
+    }
+    .content{
+        width:100vw;
+        box-sizing: border-box;
+        
+    }
+}

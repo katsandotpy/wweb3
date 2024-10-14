@@ -1,0 +1,64 @@
+@font-face {
+    font-family: brenzo;
+    src: url(../font/Brenzo\ Slab\ Personal\ Use.otf);
+}
+@font-face {
+    font-family: involve;
+    src: url(../font/Involve-Bold.ttf);
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background: linear-gradient(#00FA9A, #C71585);
+    height: 291px;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: brenzo;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px #FF1493;
+}
+.container{
+    display: flex;
+
+}
+.content{
+    padding: 0 20px;
+    width: 500px;
+    flex-grow:1;
+}
+.left{
+    float:left;
+    padding-right: 10px;
+}
+.right{
+    float:right;
+    padding-left: 10px;
+}
+h2{
+    font-family: involve;
+    font-size: 2rem;
+}
+aside{
+    background: #C71585;
+
+    align-self: start;
+    font-family: involve;
+    padding: 0 5px;
+}
+aside > ul> li{
+    list-style-type: none;
+    text-align: center;
+    border: 1px black solid;
+    margin-bottom: 2px;
+
+}
+.ad{
+    flex-grow: 0.5;
+}
